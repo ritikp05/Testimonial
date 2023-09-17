@@ -31,7 +31,7 @@ const Testimonial = ({ reviews }) => {
   }
 
   return (
-    <div className='w-96 border-2 mb-2 '><Card review={reviews[index]} />
+    <div className='w-80 border-2 mb-2 '><Card review={reviews[index]} />
 
       {/* since our data is placed in this component there fore we also placing all buttons in this component */}
       <div className='flext flex-row gap-8 justify-center '>
